@@ -20,7 +20,7 @@ app.add_middleware(
 
 @app.get('/')
 def message():
-    return {"message":"Hello Visitor, this has been successfully deployed to production..."}
+    return {"message":"Course done..."}
 
 app.include_router(post.router)
 app.include_router(user.router)
